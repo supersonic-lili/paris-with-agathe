@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Paris with Agathe — Découvrir Paris comme une amie",
+    "description": "Visites privées de Paris avec Agathe : quartiers, créateurs, adresses gourmandes, histoire et art de vivre parisien."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui suis-je ?",
+    "experiences": "Expériences",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Paris with Agathe",
+    "title": "Paris comme une amie vous le ferait découvrir.",
+    "lead": "Paris ne se résume pas à ses monuments. C’est aussi un style, un rythme, une atmosphère…",
+    "body": "Oubliez les circuits touristiques traditionnels. Le temps de quelques heures ou d’une journée, je vous emmène découvrir le Paris que j’aime et qui fait l’âme de la ville.\n\nDe l’histoire des grands monuments aux boutiques que l’on ne trouve pas dans les guides, des galeries d’art aux meilleures pâtisseries de quartier, je vous invite à découvrir Paris autrement : de façon vivante, curieuse et personnelle. Et très parisienne !",
+    "ways": "En voiture avec chauffeur, à pied, à vélo (l’été), en petite jeep décapotable aux beaux jours, imaginons ensemble votre escapade parisienne.",
+    "signature": "Paris est ma ville. Le temps d’une visite, elle sera aussi un peu la vôtre.",
+    "cta": "Découvrir les expériences"
+  },
+  "about": {
+    "eyebrow": "Agathe",
+    "title": "Qui suis-je ?",
+    "body": "Née de parents parisiens, j’ai grandi entre Paris et l’étranger, au gré des mutations professionnelles de mon père et de mes études. Curieuse de nature et passionnée de voyages, j’ai parcouru une grande partie du monde, relatant parfois mes récits dans les médias. De l’Afrique à la Polynésie, de Londres à Los Angeles, de Milan à Madrid, j’ai eu la chance de découvrir d’autres façons de vivre, d’autres cultures, d’autres regards sur le monde.\n\nMais Paris est toujours resté mon point d’ancrage, le lieu où je retrouvais ma famille et mes repères. C’est ma base depuis mon plus jeune âge.\n\nAprès une vie professionnelle dans l’événementiel et le design, j’ai eu envie de réunir tout ce qui m’anime : la rencontre, la transmission, la culture, l’art de vivre et, bien sûr, mon amour de Paris.\n\nJ’aime autant raconter l’histoire d’un monument que dénicher une boutique singulière, discuter avec un artisan passionné, choisir une bonne adresse gourmande ou vous entraîner dans un jardin que vous n’auriez jamais imaginé trouver là.",
+    "quote": "Mon ambition n’est pas de vous montrer tout Paris. C’est de vous faire découvrir Paris à travers mon regard et mes coups de cœur."
+  },
+  "experiences": {
+    "eyebrow": "Les expériences",
+    "title": "Paris, à ma façon",
+    "subtitle": "Des expériences pensées pour vous",
+    "items": [
+      {
+        "title": "Le Paris des quartiers",
+        "text": "Saint-Germain-des-Prés, le Marais, le Quartier latin, l’île Saint-Louis, Montmartre, les adresses d’Emily in Paris ou d’Amélie Poulain, du Da Vinci Code… Chaque quartier a son histoire, son atmosphère, ses habitudes et ses petits secrets. Je vous aide à en saisir l’esprit, au-delà des façades."
+      },
+      {
+        "title": "Le Paris des créateurs et des belles adresses",
+        "text": "Designers français, boutiques indépendantes, galeries d’art, artisans et lieux inattendus : partons à la rencontre de ceux qui font la richesse et la singularité de Paris aujourd’hui."
+      },
+      {
+        "title": "Le Paris gourmand",
+        "text": "Une excellente pâtisserie, un fromager d’exception, un caviste passionné, une spécialité à goûter absolument… Je vous emmène chez des commerçants que j’aime, sélectionnés pour la qualité de leurs produits et le plaisir qu’ils ont à partager leur savoir-faire."
+      },
+      {
+        "title": "Le Paris de l’histoire et de la culture",
+        "text": "Des grands monuments à l’architecture des rues, des anecdotes historiques aux expositions du moment, découvrons les histoires qui se cachent derrière ce que l’on voit. Nous pourrons aussi pousser les portes de galeries ou explorer les jardins secrets de la capitale."
+      },
+      {
+        "title": "Le Paris des Parisiens",
+        "text": "Comment vivent les Parisiens ? Où sortent-ils, comment s’habillent-ils, que révèlent leurs quartiers de leurs goûts et de leurs modes de vie ? Avec un peu d’observation, quelques anecdotes et beaucoup de curiosité, Paris devient un formidable terrain de découverte."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Imaginons ensemble votre escapade parisienne.",
+    "cta": "Écrire à Agathe"
+  }
+}

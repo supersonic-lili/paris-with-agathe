@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Paris with Agathe — Discover Paris through the eyes of a Parisian",
+    "description": "Private tours of Paris with Agathe: neighborhoods, designers, gourmet addresses, history and the Parisian way of life."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Who am I?",
+    "experiences": "Experiences",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Paris with Agathe",
+    "title": "Discover Paris through the eyes of a Parisian.",
+    "lead": "Paris is more than its famous monuments. It is a rhythm, a mood, a collection of little moments: a quiet street in Saint-Germain-des-Prés, the scent of fresh bread in a neighborhood bakery, a hidden garden behind an unassuming gate, a café terrace where Parisians linger over conversation, the view of the sunset from a century-old bridge.",
+    "body": "Forget the traditional tourist trails. For a few hours or a full day, let me take you to discover the Paris I love — the city’s true soul.\n\nFrom the history of iconic landmarks to shops you won’t find in guidebooks, and from art galleries to the best local pastry shops, I invite you to experience Paris in a different way: with a sense of curiosity, a personal touch, and a lively spirit.",
+    "ways": "Whether in a chauffeured car, on foot, by bike (in summer), or in a small open-top Jeep on sunny days, let’s plan your Parisian getaway together.",
+    "signature": "Paris is my city. It could be a little bit yours, too.",
+    "cta": "Discover the experiences"
+  },
+  "about": {
+    "eyebrow": "Agathe",
+    "title": "Who am I?",
+    "body": "Born to Parisian parents, I grew up between Paris and various locations abroad, moving with my parents’ careers and my own studies. Naturally curious and passionate about travel, I have explored much of the world. From Africa to Polynesia, London to Los Angeles, and Milan to Madrid, I have been fortunate enough to discover different ways of life, cultures, and perspectives on the world.\n\nYet Paris has always remained my anchor — the place where I returned to my family and my roots. It has been my home base since childhood.\n\nAfter a career in events and design, I wanted to bring together everything that drives me: meeting people, sharing knowledge, culture, the art of living, and, of course, my love for Paris.\n\nI enjoy telling the story of a monument just as much as unearthing a unique boutique, chatting with a passionate artisan, picking out a great spot for a bite to eat, or taking you to a garden you never would have imagined finding there.",
+    "quote": "My goal isn’t to show you all of Paris; it is to help you discover the city through my eyes and the places I love most."
+  },
+  "experiences": {
+    "eyebrow": "Experiences",
+    "title": "Paris, my way",
+    "subtitle": "Experiences designed with you in mind",
+    "items": [
+      {
+        "title": "Paris by Neighborhood",
+        "text": "Saint-Germain-des-Prés, Le Marais, the Latin Quarter, Île Saint-Louis, Montmartre, the favorite addresses of Emily in Paris or Amélie Poulain, the Da Vinci Code mystery… Each neighborhood has its own history, atmosphere, habits, style and little secrets. I help you capture their spirit — going beyond the facades."
+      },
+      {
+        "title": "Paris: Designers and Fine Spots",
+        "text": "French designers, independent boutiques, art galleries, artisans, and unexpected places: let’s meet the people who make Paris so rich and unique today."
+      },
+      {
+        "title": "Gourmet Paris",
+        "text": "An exquisite pastry shop, an exceptional cheese, a passionate wine merchant, a must-try specialty… I’ll take you to the shops I love, chosen for the quality of their products and the joy the owners take in sharing their expertise."
+      },
+      {
+        "title": "Paris: History and Culture",
+        "text": "From major monuments to street architecture, from historical anecdotes to current exhibitions, let’s uncover the stories hidden behind what meets the eye. We can also step into galleries or explore the capital’s secret gardens."
+      },
+      {
+        "title": "Paris: The Parisian Way of Life",
+        "text": "How do Parisians live? Where do they go out? How do they dress? What do their neighborhoods reveal about their tastes and lifestyles? How do they vote? With a little observation, a few anecdotes, and plenty of curiosity, Paris becomes a wonderful place of discovery."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let’s plan your Parisian getaway together.",
+    "cta": "Write to Agathe"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "logo": "/images/logo-placeholder.svg",
+  "email": "bonjour@pariswithagathe.com",
+  "phone": "+33 6 00 00 00 00",
+  "instagram": "https://instagram.com/",
+  "images": {
+    "home_hero": "/images/home-hero.svg",
+    "home_1": "/images/home-1.svg",
+    "home_2": "/images/home-2.svg",
+    "home_3": "/images/home-3.svg",
+    "about_portrait": "/images/about-portrait.svg",
+    "experiences": [
+      "/images/experience-1.svg",
+      "/images/experience-2.svg",
+      "/images/experience-3.svg",
+      "/images/experience-4.svg",
+      "/images/experience-5.svg"
+    ]
+  }
+}
