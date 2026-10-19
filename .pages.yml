@@ -1,0 +1,144 @@
+media:
+  input: images
+  output: /images
+  categories: [image]
+
+content:
+  - name: en
+    label: "🇬🇧 Textes en anglais"
+    type: file
+    path: content/en.json
+    format: json
+    fields:
+      - name: home
+        label: "Home page"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre principal", type: text }
+          - { name: lead, label: "Introduction (grand texte)", type: text }
+          - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
+          - { name: ways, label: "Phrase « comment »", type: text }
+          - { name: signature, label: "Citation finale", type: text }
+          - { name: cta, label: "Bouton vers les expériences", type: string }
+      - name: about
+        label: "About page"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre", type: string }
+          - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
+          - { name: quote, label: "Citation finale", type: text }
+      - name: experiences
+        label: "Experiences page"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre", type: string }
+          - { name: subtitle, label: "Sous-titre", type: string }
+          - name: items
+            label: "Expériences"
+            type: object
+            list: true
+            fields:
+              - { name: title, label: "Titre", type: string }
+              - { name: text, label: "Texte", type: text }
+      - name: contact
+        label: "Contact (bas de page)"
+        type: object
+        fields:
+          - { name: title, label: "Phrase d'appel", type: text }
+          - { name: cta, label: "Texte du bouton", type: string }
+      - name: nav
+        label: "Menu"
+        type: object
+        fields:
+          - { name: home, label: "Accueil", type: string }
+          - { name: about, label: "Qui suis-je", type: string }
+          - { name: experiences, label: "Expériences", type: string }
+          - { name: contact, label: "Contact", type: string }
+      - name: meta
+        label: "Référencement Google"
+        type: object
+        fields:
+          - { name: title, label: "Titre de l'onglet", type: string }
+          - { name: description, label: "Description Google", type: text }
+  - name: fr
+    label: "🇫🇷 Textes en français"
+    type: file
+    path: content/fr.json
+    format: json
+    fields:
+      - name: home
+        label: "Page Accueil"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre principal", type: text }
+          - { name: lead, label: "Introduction (grand texte)", type: text }
+          - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
+          - { name: ways, label: "Phrase « comment »", type: text }
+          - { name: signature, label: "Citation finale", type: text }
+          - { name: cta, label: "Bouton vers les expériences", type: string }
+      - name: about
+        label: "Page Qui suis-je"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre", type: string }
+          - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
+          - { name: quote, label: "Citation finale", type: text }
+      - name: experiences
+        label: "Page Expériences"
+        type: object
+        fields:
+          - { name: eyebrow, label: "Surtitre", type: string }
+          - { name: title, label: "Titre", type: string }
+          - { name: subtitle, label: "Sous-titre", type: string }
+          - name: items
+            label: "Expériences"
+            type: object
+            list: true
+            fields:
+              - { name: title, label: "Titre", type: string }
+              - { name: text, label: "Texte", type: text }
+      - name: contact
+        label: "Contact (bas de page)"
+        type: object
+        fields:
+          - { name: title, label: "Phrase d'appel", type: text }
+          - { name: cta, label: "Texte du bouton", type: string }
+      - name: nav
+        label: "Menu"
+        type: object
+        fields:
+          - { name: home, label: "Accueil", type: string }
+          - { name: about, label: "Qui suis-je", type: string }
+          - { name: experiences, label: "Expériences", type: string }
+          - { name: contact, label: "Contact", type: string }
+      - name: meta
+        label: "Référencement Google"
+        type: object
+        fields:
+          - { name: title, label: "Titre de l'onglet", type: string }
+          - { name: description, label: "Description Google", type: text }
+  - name: shared
+    label: "📷 Photos & coordonnées"
+    type: file
+    path: content/shared.json
+    format: json
+    fields:
+      - { name: logo, label: "Logo (accueil)", type: image }
+      - { name: email, label: "E-mail", type: string }
+      - { name: phone, label: "Téléphone (vide = masqué)", type: string }
+      - { name: instagram, label: "Lien Instagram (vide = masqué)", type: string }
+      - name: images
+        label: "Photos"
+        type: object
+        fields:
+          - { name: home_hero, label: "Accueil — grande photo", type: image }
+          - { name: home_1, label: "Accueil — photo 1", type: image }
+          - { name: home_2, label: "Accueil — photo 2", type: image }
+          - { name: home_3, label: "Accueil — photo 3", type: image }
+          - { name: about_portrait, label: "Qui suis-je — portrait", type: image }
+          - { name: experiences, label: "Expériences — une photo par expérience, dans l'ordre", type: image, list: true }
