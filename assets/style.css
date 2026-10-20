@@ -186,3 +186,7 @@ p { margin: 0 0 1.25em; }
 /* Homepage hero */
 .hero::before { background: rgba(0, 0, 0, 0.45); }
 .hero-logo, .hero-sub { color: #fbf1e7; }
+
+/* Homepage nav wordmark — size limits */
+.page-home .brand .logo { width: auto; }
+.page-home .brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 2.5rem; }
