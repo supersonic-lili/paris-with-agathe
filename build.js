@@ -50,7 +50,7 @@ function page({ lang, key, body }) {
 </head>
 <body class="page-${key}">
 <header class="site-header">
-  <a class="brand" href="${href(lang, "home")}" aria-label="Paris with Agathe">${logo(img(key === "home" ? (shared.wordmark || "/images/wordmark-placeholder.svg") : shared.logo))}</a>
+  <a class="brand" href="${href(lang, "home")}" aria-label="Paris with Agathe">${logo(img(shared.wordmark || "/images/wordmark-placeholder.svg"))}</a>
   <nav class="nav">${nav}<a href="#contact">${esc(t.nav.contact)}</a></nav>
   <a class="lang" href="${href(other, key)}" hreflang="${other}" lang="${other}">${other.toUpperCase()}</a>
 </header>
