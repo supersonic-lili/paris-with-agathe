@@ -5,16 +5,16 @@
   "instagram": "https://instagram.com/",
   "images": {
     "home_hero": "/images/IMG_2583-2.jpeg",
-    "home_1": "/images/home-1.svg",
-    "home_2": "/images/home-2.svg",
-    "home_3": "/images/home-3.svg",
+    "home_1": "/images/IMG_2043.jpeg",
+    "home_2": "/images/IMG_2057.jpeg",
+    "home_3": "/images/IMG_2047.jpeg",
     "about_portrait": "/images/about-portrait.svg",
     "experiences": [
-      "/images/experience-1.svg",
-      "/images/experience-2.svg",
-      "/images/experience-3.svg",
-      "/images/experience-4.svg",
-      "/images/experience-5.svg"
+      "/images/IMG_8328.jpeg",
+      "/images/IMG_2772.jpeg",
+      "/images/IMG_8222.jpeg",
+      "/images/IMG_2423.jpeg",
+      "/images/IMG_2695.jpeg"
     ]
   }
 }
