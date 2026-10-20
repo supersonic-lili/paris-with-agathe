@@ -189,4 +189,4 @@ p { margin: 0 0 1.25em; }
 
 /* Homepage nav wordmark — size limits */
 .page-home .brand .logo { width: auto; }
-.page-home .brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 2.5rem; }
+.page-home .brand .logo img { width: auto; height: auto; max-height: 2.5rem; }
