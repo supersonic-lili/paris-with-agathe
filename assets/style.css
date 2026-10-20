@@ -80,7 +80,7 @@ p { margin: 0 0 1.25em; }
 .hero-bg { position: absolute; inset: 0; z-index: -2; }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(28, 47, 77, 0.3); }
 .hero-content { padding: 6rem var(--gutter) 4rem; max-width: 64rem; animation: rise 1.4s cubic-bezier(.2,.7,.2,1) both; }
-.hero-logo { width: clamp(6rem, 12vw, 9rem); height: auto; margin: 0 auto clamp(2rem, 4vw, 3rem); object-fit: contain; }
+.hero-logo { width: clamp(9rem, 20vw, 16rem); height: auto; margin: 0 auto clamp(2rem, 4vw, 3rem); object-fit: contain; }
 .hero h1 { font-size: clamp(2.5rem, 1.4rem + 4.5vw, 6rem); }
 .hero-sub { margin: 2rem 0 0; font: 400 0.75rem/1 var(--sans); letter-spacing: 0.28em; text-transform: uppercase; color: var(--pistachio); }
 .hero-scroll { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); font-size: 1.25rem; color: var(--pistachio); animation: bob 2.4s ease-in-out infinite; }
