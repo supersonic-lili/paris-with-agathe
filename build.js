@@ -17,6 +17,9 @@ const esc = (s = "") =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const paras = (s = "") =>
   String(s).split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("\n");
+// Logo drawn as a mask so CSS controls its colour (light on the hero, navy elsewhere)
+const logo = (src) =>
+  `<span class="logo"><img src="${esc(src)}" alt="Paris with Agathe"><span class="logo-fill" style="-webkit-mask-image:url('${esc(src)}');mask-image:url('${esc(src)}')"></span></span>`;
 const roman = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
 
 function page({ lang, key, body }) {
@@ -47,7 +50,7 @@ function page({ lang, key, body }) {
 </head>
 <body class="page-${key}">
 <header class="site-header">
-  <a class="wordmark" href="${href(lang, "home")}">Paris <em>with</em> Agathe</a>
+  <a class="brand" href="${href(lang, "home")}" aria-label="Paris with Agathe">${logo(img(shared.logo))}</a>
   <nav class="nav">${nav}<a href="#contact">${esc(t.nav.contact)}</a></nav>
   <a class="lang" href="${href(other, key)}" hreflang="${other}" lang="${other}">${other.toUpperCase()}</a>
 </header>
@@ -79,9 +82,8 @@ const home = ({ t, href, img }) => {
 <section class="hero">
   <img class="hero-bg" src="${img(i.home_hero)}" alt="">
   <div class="hero-content">
-    <img class="hero-logo" src="${img(shared.logo)}" alt="Paris with Agathe">
-    <h1>${esc(h.title)}</h1>
-    <p class="hero-sub">${esc(h.eyebrow)}</p>
+    <h1 class="hero-logo">${logo(img(shared.wordmark || "/images/wordmark-placeholder.svg"))}</h1>
+    <p class="hero-sub">${esc(h.title)}</p>
   </div>
   <a class="hero-scroll" href="#intro" aria-label="Scroll">↓</a>
 </section>
