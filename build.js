@@ -50,7 +50,7 @@ function page({ lang, key, body }) {
 </head>
 <body class="page-${key}">
 <header class="site-header">
-  <a class="brand" href="${href(lang, "home")}" aria-label="Paris with Agathe">${logo(img(shared.logo))}</a>
+  <a class="brand" href="${href(lang, "home")}" aria-label="Paris with Agathe">${logo(img(key === "home" ? (shared.wordmark || "/images/wordmark-placeholder.svg") : shared.logo))}</a>
   <nav class="nav">${nav}<a href="#contact">${esc(t.nav.contact)}</a></nav>
   <a class="lang" href="${href(other, key)}" hreflang="${other}" lang="${other}">${other.toUpperCase()}</a>
 </header>
@@ -82,11 +82,27 @@ const home = ({ t, href, img }) => {
 <section class="hero">
   <img class="hero-bg" src="${img(i.home_hero)}" alt="">
   <div class="hero-content">
-    <h1 class="hero-logo">${logo(img(shared.wordmark || "/images/wordmark-placeholder.svg"))}</h1>
-    <p class="hero-sub">${esc(h.title)}</p>
+    <h1 class="hero-logo">${logo(img(shared.logo))}</h1>
+    <p class="hero-sub"><span>${esc(h.title)}</span></p>
   </div>
   <a class="hero-scroll" href="#intro" aria-label="Scroll">↓</a>
 </section>
+<script>
+/* Tagline matches the logo width */
+(function () {
+  var logo = document.querySelector(".hero-logo .logo"), t = document.querySelector(".hero-sub span");
+  if (!logo || !t) return;
+  function fit() {
+    t.style.fontSize = "";
+    var w = logo.getBoundingClientRect().width, tw = t.getBoundingClientRect().width;
+    if (w && tw) t.style.fontSize = (parseFloat(getComputedStyle(t).fontSize) * w / tw) + "px";
+  }
+  addEventListener("resize", fit);
+  addEventListener("load", fit);
+  if (document.fonts) document.fonts.ready.then(fit);
+  fit();
+})();
+</script>
 <section class="intro grid" id="intro">
   <p class="lead">${esc(h.lead)}</p>
   <div class="prose">${paras(h.body)}</div>
