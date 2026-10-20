@@ -201,7 +201,7 @@ p { margin: 0 0 1.25em; }
 .brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 4rem; }
 
 /* Tagline: back to its own size (not logo width) */
-.hero-sub span { font-size: 4rem !important; white-space: normal; }
+.hero-sub span { font-size: 3rem !important; white-space: normal; }
 
 /* Nav wordmark — same size on every page */
 .brand .logo { width: auto; }
