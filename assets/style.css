@@ -202,3 +202,7 @@ p { margin: 0 0 1.25em; }
 
 /* Tagline: back to its own size (not logo width) */
 .hero-sub span { font-size: 4rem !important; white-space: normal; }
+
+/* Nav wordmark — same size on every page */
+.brand .logo { width: auto; }
+.brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 2.5rem; }
