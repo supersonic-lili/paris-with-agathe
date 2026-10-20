@@ -129,7 +129,7 @@ content:
     format: json
     fields:
       - { name: logo, label: "Logo (accueil)", type: image }
-      - { name: wordmark, label: "Wordmark (grand, sur la photo d'accueil)", type: image }
+      - { name: wordmark, label: "Wordmark (menu de la page d'accueil)", type: image }
       - { name: email, label: "E-mail", type: string }
       - { name: phone, label: "Téléphone (vide = masqué)", type: string }
       - { name: instagram, label: "Lien Instagram (vide = masqué)", type: string }
