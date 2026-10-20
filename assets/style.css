@@ -190,3 +190,12 @@ p { margin: 0 0 1.25em; }
 /* Homepage nav wordmark — size limits */
 .page-home .brand .logo { width: auto; }
 .page-home .brand .logo img { width: auto; height: auto; max-height: 2.5rem; }
+
+/* Logo: original colors */
+.logo img { opacity: 1; }
+.logo-fill { display: none; }
+
+/* Logo: size limits */
+.hero-logo .logo, .brand .logo { width: auto; }
+.hero-logo .logo img { width: auto; height: auto; max-width: min(80vw, 60rem); max-height: 12rem; }
+.brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 2.5rem; }
