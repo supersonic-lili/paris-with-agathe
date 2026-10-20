@@ -184,5 +184,5 @@ p { margin: 0 0 1.25em; }
 .hero-sub span { display: inline-block; white-space: nowrap; }
 
 /* Homepage hero */
-.hero::before { background: rgba(0, 0, 0, 0.25); }
+.hero::before { background: rgba(0, 0, 0, 0.45); }
 .hero-logo, .hero-sub { color: #fbf1e7; }
