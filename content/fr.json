@@ -22,7 +22,11 @@
     "eyebrow": "Agathe",
     "title": "Qui suis-je ?",
     "body": "Née de parents parisiens, j’ai grandi entre Paris et l’étranger, au gré des mutations professionnelles de mon père et de mes études. Curieuse de nature et passionnée de voyages, j’ai parcouru une grande partie du monde, relatant parfois mes récits dans les médias. De l’Afrique à la Polynésie, de Londres à Los Angeles, de Milan à Madrid, j’ai eu la chance de découvrir d’autres façons de vivre, d’autres cultures, d’autres regards sur le monde.\n\nMais Paris est toujours resté mon point d’ancrage, le lieu où je retrouvais ma famille et mes repères. C’est ma base depuis mon plus jeune âge.\n\nAprès une vie professionnelle dans l’événementiel et le design, j’ai eu envie de réunir tout ce qui m’anime : la rencontre, la transmission, la culture, l’art de vivre et, bien sûr, mon amour de Paris.\n\nJ’aime autant raconter l’histoire d’un monument que dénicher une boutique singulière, discuter avec un artisan passionné, choisir une bonne adresse gourmande ou vous entraîner dans un jardin que vous n’auriez jamais imaginé trouver là.",
-    "quote": "Mon ambition n’est pas de vous montrer tout Paris. C’est de vous faire découvrir Paris à travers mon regard et mes coups de cœur."
+    "quote": "Mon ambition n’est pas de vous montrer tout Paris. C’est de vous faire découvrir Paris à travers mon regard et mes coups de cœur.",
+    "pronounce_title": "Comment prononcer mon prénom ?",
+    "pronounce_text": "Oubliez Agatha : je m’appelle Agathe, avec un e à la fin !\n\nPetite astuce : dites « I got » avec un bon accent américain, et vous y êtes presque.\n\nFacile, non ? Vous pouvez maintenant retenir mon prénom, le prononcer parfaitement… et vous en attribuer tout le mérite !",
+    "languages_title": "Langues",
+    "languages_text": "J’accueille mes visiteurs en français et en anglais, deux langues que je parle couramment. Je peux aussi vous faire découvrir Paris en espagnol ou en italien."
   },
   "experiences": {
     "eyebrow": "Les expériences",
@@ -49,6 +53,13 @@
         "title": "Le Paris des Parisiens",
         "text": "Comment vivent les Parisiens ? Où sortent-ils, comment s’habillent-ils, que révèlent leurs quartiers de leurs goûts et de leurs modes de vie ? Avec un peu d’observation, quelques anecdotes et beaucoup de curiosité, Paris devient un formidable terrain de découverte."
       }
+    ],
+    "intro": "Envie de découvrir les incontournables, de flâner dans les boutiques, de consacrer une journée à l’art et au design, ou de dénicher les meilleures adresses gourmandes ?\n\nJe vous propose des itinéraires que j’ai conçus et peaufinés au fil du temps, ou nous pouvons imaginer ensemble une visite entièrement sur mesure.\n\nQue vous soyez en couple, en famille, entre amis ou en petit groupe (3 personnes maximum par véhicule), chaque sortie s’adapte à vos envies, à votre rythme et à vos centres d’intérêt.\n\nPour vous déplacer, plusieurs options selon la saison et la météo : à pied, à vélo, en petite jeep décapotable aux beaux jours, ou en voiture avec chauffeur quand les conditions l’exigent.\n\nDe deux heures à une journée entière, tout est possible : il suffit de trouver la formule qui vous convient le mieux. Un devis détaillé est établi pour chaque demande.",
+    "prices_title": "Tarifs",
+    "prices_text": "Le tarif dépend de la durée de la visite, du mode de transport choisi (voiture avec chauffeur, à pied, à vélo, jeep décapotable…), du nombre de personnes et de votre mode de réservation (agence de voyage, conciergerie ou directement auprès de moi). Dites-moi ce que vous souhaitez et je vous enverrai un devis précis.\n\nPlus la visite est longue, plus le tarif horaire diminue.",
+    "prices": [
+      "À partir de 250 € de l’heure pour 3 personnes en voiture avec chauffeur",
+      "À partir de 150 € de l’heure pour 3 personnes à pied, au départ de votre hôtel (dans Paris intra-muros)"
     ]
   },
   "contact": {

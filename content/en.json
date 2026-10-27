@@ -22,7 +22,11 @@
     "eyebrow": "Agathe",
     "title": "Who am I?",
     "body": "Born to Parisian parents, I grew up between Paris and various locations abroad, moving with my parents’ careers and my own studies. Naturally curious and passionate about travel, I have explored much of the world. From Africa to Polynesia, London to Los Angeles, and Milan to Madrid, I have been fortunate enough to discover different ways of life, cultures, and perspectives on the world.\n\nYet Paris has always remained my anchor — the place where I returned to my family and my roots. It has been my home base since childhood.\n\nAfter a career in events and design, I wanted to bring together everything that drives me: meeting people, sharing knowledge, culture, the art of living, and, of course, my love for Paris.\n\nI enjoy telling the story of a monument just as much as unearthing a unique boutique, chatting with a passionate artisan, picking out a great spot for a bite to eat, or taking you to a garden you never would have imagined finding there.",
-    "quote": "My goal isn’t to show you all of Paris; it is to help you discover the city through my eyes and the places I love most."
+    "quote": "My goal isn’t to show you all of Paris; it is to help you discover the city through my eyes and the places I love most.",
+    "pronounce_title": "How to pronounce my name?",
+    "pronounce_text": "Forget Agatha — I'm Agathe, with an e at the end!\n\nHere's a little trick: say “I got” in a strong American accent, and you're already halfway there.\n\nEasy, right? Now you can remember my name, pronounce it perfectly, and take all the credit!",
+    "languages_title": "Languages",
+    "languages_text": "I welcome guests in French and English, both of which I speak fluently. I can also help you discover Paris in Spanish or Italian."
   },
   "experiences": {
     "eyebrow": "Experiences",
@@ -49,6 +53,13 @@
         "title": "Paris: The Parisian Way of Life",
         "text": "How do Parisians live? Where do they go out? How do they dress? What do their neighborhoods reveal about their tastes and lifestyles? How do they vote? With a little observation, a few anecdotes, and plenty of curiosity, Paris becomes a wonderful place of discovery."
       }
+    ],
+    "intro": "Would you like to discover the must-see sights, browse the boutiques, dedicate a day to art and design, or seek out the best gourmet spots?\n\nI offer itineraries I have developed and refined over time, or we can create a completely personalized tour together.\n\nWhether you are a couple, a family, a group of friends or a small party (maximum 3 people per vehicle), each outing is tailored to your preferences, your pace and your interests.\n\nTo get around, there are several options depending on the season and the weather: on foot, by bike, in a small open-top Jeep when the weather is fine, or by chauffeured car when conditions call for it.\n\nFrom two hours to a full day, anything is possible: we simply find the format that suits you best. A detailed quote is provided for every request.",
+    "prices_title": "Prices",
+    "prices_text": "The price depends on the length of the tour, the transport chosen (chauffeured car, on foot, by bike, open-top Jeep…), the size of your group, and how you book (through a travel agency, a concierge service, or directly with me). Tell me what you have in mind and I’ll send you a precise quote.\n\nThe longer the tour, the lower the hourly rate.",
+    "prices": [
+      "From €250 per hour for 3 people by chauffeured car",
+      "From €150 per hour for 3 people on foot, starting from your hotel (within central Paris)"
     ]
   },
   "contact": {

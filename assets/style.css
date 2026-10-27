@@ -135,3 +135,20 @@ p { margin: 0 0 1.25em; }
 
 /* Let centered text use the full width */
 .closing h2, .footer-title, .quote h2 { max-width: 75rem; }
+
+.intro h2 { margin-bottom: 1.5rem; }
+
+/* Who am I — extra blocks */
+.info-block { margin-top: clamp(2.5rem, 5vw, 4rem); padding-top: clamp(2rem, 4vw, 3rem); border-top: 1px solid var(--line); }
+.info-block h2 { margin-bottom: 1rem; }
+
+/* Experiences — intro + prices */
+.exp-intro { border-bottom: 1px solid var(--line); margin: 0 var(--gutter); padding-inline: 0; }
+.subtitle { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.35rem); color: var(--prussian); opacity: .75; margin: -1.5rem 0 2rem; }
+.prices { padding: var(--space) var(--gutter); text-align: center; background: var(--pistachio); }
+.prices h2 { margin-bottom: 1.5rem; }
+.prices-text { max-width: 40rem; margin: 0 auto; }
+.price-list { list-style: none; padding: 0; margin: 2.5rem auto 0; max-width: 46rem; display: grid; gap: 1rem; }
+.price-list li { padding: 1.25rem 1.5rem; border: 1px solid rgba(28, 47, 77, 0.3); border-radius: 0.75rem; font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem); }
+.intro { max-width: 75rem; }
+.intro p { max-width: 46rem; margin-inline: auto; }

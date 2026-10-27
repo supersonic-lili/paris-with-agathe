@@ -81,11 +81,11 @@ const home = ({ t, href, img }) => {
   <img class="hero-bg" src="${img(i.home_hero)}" alt="">
   <div class="hero-content">
     <h1 class="hero-logo">${logo(img(shared.logo))}</h1>
-    <h2 class="hero-sub">${esc(String(h.title || "").replace(/[.。]\s*$/, ""))}</h2>
   </div>
   <a class="hero-scroll" href="#intro" aria-label="Scroll">↓</a>
 </section>
 <section class="intro" id="intro">
+  <h2>${esc(String(h.title || "").replace(/[.。]\s*$/, ""))}</h2>
   <p>${esc(h.lead)}</p>
 </section>
 <section class="triptych">
@@ -105,12 +105,17 @@ const home = ({ t, href, img }) => {
 
 const about = ({ t, img }) => {
   const a = t.about;
+  const block = (title, text) => (title || text) ? `
+    <div class="info-block">
+      ${title ? `<h2>${esc(title)}</h2>` : ""}
+      ${paras(text)}
+    </div>` : "";
   return `
 <section class="about">
   <figure class="portrait"><img src="${img(shared.images.about_portrait)}" alt="Agathe"></figure>
   <div class="about-text">
     <h1>${esc(a.title)}</h1>
-    <div class="prose">${paras(a.body)}</div>
+    <div class="prose">${paras(a.body)}</div>${block(a.pronounce_title, a.pronounce_text)}${block(a.languages_title, a.languages_text)}
   </div>
 </section>
 <section class="quote"><h2>${esc(a.quote)}</h2></section>`;
@@ -131,10 +136,23 @@ const experiences = ({ t, img }) => {
       ${paras(it.text)}
     </div>
   </article>`).join("");
+  const prices = (e.prices || []).filter(Boolean);
   return `
-<h1 class="visually-hidden">${esc(e.title)}</h1>
+<section class="about exp-intro">
+  <figure class="portrait"><img src="${img(shared.images.experiences_intro || "/images/experiences-intro.svg")}" alt=""></figure>
+  <div class="about-text">
+    <h1>${esc(e.title)}</h1>
+    ${e.subtitle ? `<p class="subtitle">${esc(e.subtitle)}</p>` : ""}
+    <div class="prose">${paras(e.intro)}</div>
+  </div>
+</section>
 <section class="exp-list">${items}
-</section>`;
+</section>
+${(e.prices_title || e.prices_text || prices.length) ? `<section class="prices">
+  ${e.prices_title ? `<h2>${esc(e.prices_title)}</h2>` : ""}
+  <div class="prices-text">${paras(e.prices_text)}</div>
+  ${prices.length ? `<ul class="price-list">${prices.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}
+</section>` : ""}`;
 };
 
 fs.rmSync(OUT, { recursive: true, force: true });
