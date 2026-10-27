@@ -19,7 +19,12 @@
       "/images/IMG_2695.jpeg"
     ],
     "experience_galleries": [
-      {},
+      {
+        "photo_1": "/images/IMG_7248.jpg",
+        "photo_2": "/images/IMG_6341.jpg",
+        "photo_3": "/images/IMG_8685-1.jpg",
+        "photo_4": "/images/IMG_0604.jpg"
+      },
       {},
       {
         "photo_1": "/images/637ADDDA-1257-49DB-9DF6-3E04A6443718-1.jpg",
@@ -29,8 +34,12 @@
       },
       {
         "photo_1": "/images/IMG_3833.jpg",
-        "photo_2": "/images/IMG_8652-1.jpg",
-        "photo_3": "/images/IMG_2423-1.jpeg"
+        "photo_2": "/images/IMG_8652-2.jpg",
+        "photo_3": "/images/IMG_7514.jpg",
+        "photo_4": "/images/IMG_2423-2.jpeg"
+      },
+      {
+        "photo_1": "/images/IMG_2759.jpg"
       }
     ]
   }
