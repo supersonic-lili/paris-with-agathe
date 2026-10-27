@@ -206,3 +206,15 @@ p { margin: 0 0 1.25em; }
 /* Nav wordmark — same size on every page */
 .brand .logo { width: auto; }
 .brand .logo img { width: auto; height: auto; max-width: 11rem; max-height: 2.5rem; }
+
+/* Fonts: Whimsical Romance Script (titles) + Quicksand (body) */
+@font-face { font-family: "Whimsical Romance Script"; src: url("fonts/whimsicalromancescript-regular.woff2") format("woff2"), url("fonts/whimsicalromancescript-regular.woff") format("woff"); font-display: swap; }
+@font-face { font-family: "Quicksand"; src: url("fonts/quicksand-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+2215; }
+@font-face { font-family: "Quicksand"; src: url("fonts/quicksand-latin-ext-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; unicode-range: U+0100-024F, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+:root {
+  --serif: "Whimsical Romance Script", Georgia, serif;
+  --sans: "Quicksand", "Helvetica Neue", Arial, sans-serif;
+}
+body { font-weight: 400; }
+h1, h2, blockquote, .hero-sub, .ways p, .subtitle, .footer-title { font-weight: 400; font-style: normal; }
+.intro .lead { font-family: var(--sans); font-size: clamp(1.25rem, 1rem + 0.8vw, 1.6rem); line-height: 1.5; }
