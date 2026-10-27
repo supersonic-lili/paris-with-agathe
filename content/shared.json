@@ -10,7 +10,7 @@
     "home_2": "/images/IMG_2057.jpeg",
     "home_3": "/images/IMG_2047.jpeg",
     "about_portrait": "/images/53ce15e9-fe56-4164-85a2-b6c3629f6a3e-1.jpg",
-    "experiences_intro": "/images/IMG_9793.jpeg",
+    "experiences_intro": "/images/4B144692-3F11-4323-B0DB-6D3E30E74868.jpg",
     "experiences": [
       "/images/IMG_8328.jpeg",
       "/images/IMG_2772.jpeg",
@@ -24,7 +24,13 @@
       {
         "photo_1": "/images/637ADDDA-1257-49DB-9DF6-3E04A6443718-1.jpg",
         "photo_2": "/images/IMG_2695-1.jpeg",
+        "photo_3": "/images/IMG_3559.jpg",
         "photo_4": "/images/IMG_4569-1.jpg"
+      },
+      {
+        "photo_1": "/images/IMG_3833.jpg",
+        "photo_2": "/images/IMG_8652-1.jpg",
+        "photo_3": "/images/IMG_2423-1.jpeg"
       }
     ]
   }
