@@ -17,10 +17,7 @@ const esc = (s = "") =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const paras = (s = "") =>
   String(s).split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("\n");
-// Logo drawn as a mask so CSS controls its colour (light on the hero, navy elsewhere)
-const logo = (src) =>
-  `<span class="logo"><img src="${esc(src)}" alt="Paris with Agathe"><span class="logo-fill" style="-webkit-mask-image:url('${esc(src)}');mask-image:url('${esc(src)}')"></span></span>`;
-const roman = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+const logo = (src) => `<span class="logo"><img src="${esc(src)}" alt="Paris with Agathe"></span>`;
 
 function page({ lang, key, body }) {
   const t = langs[lang];
@@ -45,7 +42,8 @@ function page({ lang, key, body }) {
 <link rel="alternate" hreflang="en" href="${href("en", key)}">
 <link rel="alternate" hreflang="fr" href="${href("fr", key)}">
 <link rel="alternate" hreflang="x-default" href="${href("en", key)}">
-<link rel="preload" href="${up}assets/fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="${up}assets/fonts/whimsicalromancescript-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="${up}assets/fonts/quicksand-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${up}assets/style.css">
 </head>
 <body class="page-${key}">
@@ -83,38 +81,24 @@ const home = ({ t, href, img }) => {
   <img class="hero-bg" src="${img(i.home_hero)}" alt="">
   <div class="hero-content">
     <h1 class="hero-logo">${logo(img(shared.logo))}</h1>
-    <p class="hero-sub"><span>${esc(h.title)}</span></p>
+    <h2 class="hero-sub">${esc(String(h.title || "").replace(/[.。]\s*$/, ""))}</h2>
   </div>
   <a class="hero-scroll" href="#intro" aria-label="Scroll">↓</a>
 </section>
-<script>
-/* Tagline matches the logo width */
-(function () {
-  var logo = document.querySelector(".hero-logo .logo"), t = document.querySelector(".hero-sub span");
-  if (!logo || !t) return;
-  function fit() {
-    t.style.fontSize = "";
-    var w = logo.getBoundingClientRect().width, tw = t.getBoundingClientRect().width;
-    if (w && tw) t.style.fontSize = (parseFloat(getComputedStyle(t).fontSize) * w / tw) + "px";
-  }
-  addEventListener("resize", fit);
-  addEventListener("load", fit);
-  if (document.fonts) document.fonts.ready.then(fit);
-  fit();
-})();
-</script>
-<section class="intro grid" id="intro">
-  <p class="lead">${esc(h.lead)}</p>
-  <div class="prose">${paras(h.body)}</div>
+<section class="intro" id="intro">
+  <p>${esc(h.lead)}</p>
 </section>
 <section class="triptych">
   <figure><img src="${img(i.home_1)}" alt="" loading="lazy"></figure>
   <figure><img src="${img(i.home_2)}" alt="" loading="lazy"></figure>
   <figure><img src="${img(i.home_3)}" alt="" loading="lazy"></figure>
 </section>
-<section class="ways"><p>${esc(h.ways)}</p></section>
-<section class="signature">
-  <blockquote>${esc(h.signature)}</blockquote>
+<section class="intro intro-after">
+  ${paras(h.body)}
+</section>
+<section class="closing">
+  <p class="ways">${esc(h.ways)}</p>
+  <h2>${esc(h.signature)}</h2>
   <a class="link-arrow" href="${href(t === langs.fr ? "fr" : "en", "experiences")}">${esc(h.cta)} <span aria-hidden="true">→</span></a>
 </section>`;
 };
@@ -122,34 +106,33 @@ const home = ({ t, href, img }) => {
 const about = ({ t, img }) => {
   const a = t.about;
   return `
-<section class="about grid">
+<section class="about">
   <figure class="portrait"><img src="${img(shared.images.about_portrait)}" alt="Agathe"></figure>
-  <div>
-    <p class="eyebrow">${esc(a.eyebrow)}</p>
+  <div class="about-text">
     <h1>${esc(a.title)}</h1>
     <div class="prose">${paras(a.body)}</div>
   </div>
 </section>
-<section class="signature"><blockquote>${esc(a.quote)}</blockquote></section>`;
+<section class="quote"><h2>${esc(a.quote)}</h2></section>`;
 };
 
 const experiences = ({ t, img }) => {
-  const e = t.experiences, pics = shared.images.experiences || [];
+  const e = t.experiences, pics = shared.images.experiences || [], galleries = shared.images.experience_galleries || [];
+  const photosFor = (n) => {
+    const g = galleries[n];
+    const list = g ? [g.photo_1, g.photo_2, g.photo_3, g.photo_4].filter(Boolean) : [];
+    return list.length ? list : (pics.length ? [pics[n % pics.length]] : []);
+  };
   const items = (e.items || []).map((it, n) => `
   <article class="exp">
-    <figure><img src="${img(pics[n % pics.length])}" alt="" loading="lazy"></figure>
+    <div class="exp-gallery">${photosFor(n).map((src) => `<figure><img src="${img(src)}" alt="" loading="lazy"></figure>`).join("")}</div>
     <div class="exp-text">
-      <span class="numeral">${roman[n] || n + 1}</span>
       <h2>${esc(it.title)}</h2>
       ${paras(it.text)}
     </div>
   </article>`).join("");
   return `
-<section class="page-head">
-  <p class="eyebrow">${esc(e.eyebrow)}</p>
-  <h1>${esc(e.title)}</h1>
-  <p class="subtitle">${esc(e.subtitle)}</p>
-</section>
+<h1 class="visually-hidden">${esc(e.title)}</h1>
 <section class="exp-list">${items}
 </section>`;
 };
