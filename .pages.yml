@@ -29,6 +29,10 @@ content:
           - { name: title, label: "Titre", type: string }
           - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
           - { name: quote, label: "Citation finale", type: text }
+          - { name: pronounce_title, label: "Prononciation — titre", type: string }
+          - { name: pronounce_text, label: "Prononciation — texte", type: text }
+          - { name: languages_title, label: "Langues — titre", type: string }
+          - { name: languages_text, label: "Langues — texte", type: text }
       - name: experiences
         label: "Experiences page"
         type: object
@@ -36,6 +40,10 @@ content:
           - { name: eyebrow, label: "Surtitre", type: string }
           - { name: title, label: "Titre", type: string }
           - { name: subtitle, label: "Sous-titre", type: string }
+          - { name: intro, label: "Introduction — ligne vide = nouveau paragraphe", type: text }
+          - { name: prices_title, label: "Tarifs — titre", type: string }
+          - { name: prices_text, label: "Tarifs — texte", type: text }
+          - { name: prices, label: "Tarifs — lignes de prix", type: string, list: true }
           - name: items
             label: "Expériences"
             type: object
@@ -88,6 +96,10 @@ content:
           - { name: title, label: "Titre", type: string }
           - { name: body, label: "Texte — ligne vide = nouveau paragraphe", type: text }
           - { name: quote, label: "Citation finale", type: text }
+          - { name: pronounce_title, label: "Prononciation — titre", type: string }
+          - { name: pronounce_text, label: "Prononciation — texte", type: text }
+          - { name: languages_title, label: "Langues — titre", type: string }
+          - { name: languages_text, label: "Langues — texte", type: text }
       - name: experiences
         label: "Page Expériences"
         type: object
@@ -95,6 +107,10 @@ content:
           - { name: eyebrow, label: "Surtitre", type: string }
           - { name: title, label: "Titre", type: string }
           - { name: subtitle, label: "Sous-titre", type: string }
+          - { name: intro, label: "Introduction — ligne vide = nouveau paragraphe", type: text }
+          - { name: prices_title, label: "Tarifs — titre", type: string }
+          - { name: prices_text, label: "Tarifs — texte", type: text }
+          - { name: prices, label: "Tarifs — lignes de prix", type: string, list: true }
           - name: items
             label: "Expériences"
             type: object
@@ -128,8 +144,8 @@ content:
     path: content/shared.json
     format: json
     fields:
-      - { name: logo, label: "Logo (accueil)", type: image }
-      - { name: wordmark, label: "Wordmark (menu)", type: image }
+      - { name: logo, label: "Logo (grand sur la photo d'accueil + menu des autres pages)", type: image }
+      - { name: wordmark, label: "Wordmark (menu de la page d'accueil)", type: image }
       - { name: email, label: "E-mail", type: string }
       - { name: phone, label: "Téléphone (vide = masqué)", type: string }
       - { name: instagram, label: "Lien Instagram (vide = masqué)", type: string }
@@ -142,8 +158,9 @@ content:
           - { name: home_2, label: "Accueil — photo 2", type: image }
           - { name: home_3, label: "Accueil — photo 3", type: image }
           - { name: about_portrait, label: "Qui suis-je — portrait", type: image }
+          - { name: experiences_intro, label: "Expériences — photo d'introduction", type: image }
           - { name: experiences, label: "Expériences — une photo par expérience, dans l'ordre", type: image, list: true }
-                    - name: experience_galleries
+          - name: experience_galleries
             label: "Expériences — 4 photos par expérience, dans l'ordre"
             type: object
             list: true
