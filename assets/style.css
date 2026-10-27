@@ -132,3 +132,6 @@ p { margin: 0 0 1.25em; }
   .exp-gallery { margin-bottom: 2rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* Let centered text use the full width */
+.closing .ways, .closing h2, .footer-title, .quote h2 { max-width: 75rem; }
