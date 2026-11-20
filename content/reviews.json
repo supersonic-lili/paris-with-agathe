@@ -1,0 +1,82 @@
+{
+  "en": {
+    "title": "What my guests say",
+    "items": [
+      {
+        "name": "Marina G.",
+        "origin": "Russia",
+        "text": "An unforgettable experience. Agathe was very kind and gave us a fascinating tour. I recommend it 100%."
+      },
+      {
+        "name": "Benjamin R.",
+        "origin": "USA",
+        "text": "Agathe was the best!!! Very knowledgeable and provided a wonderful 6-hour tour around Paris. Highly recommend hiring this tour guide business!"
+      },
+      {
+        "name": "Elizabeth H.",
+        "origin": "USA",
+        "text": "My family and I had the pleasure of hiring Agathe for a tour of Paris’s Left Bank. Agathe was wonderful and very professional. She knew how to put my two children at ease and made them feel truly welcome. I highly recommend her, especially for families with children."
+      },
+      {
+        "name": "Kelly T.",
+        "origin": "USA",
+        "text": "We had the most amazing trip with Agathe! She picked us up and took my two kids and I around the city. She made sure to check off our preferred spots and added in a bunch of additional stops we just loved! She was super knowledgeable, had so many great facts about the city, history and what it is like to live in Paris. I cannot recommend this enough, it really was the highlight in our trip, especially during a historic heatwave."
+      },
+      {
+        "name": "Maureen F.",
+        "origin": "USA",
+        "text": "My mom, sister and I had the best experience touring with Agathe. Prior to the tour, Agathe reached out about the details of our day. This tour was the highlight of our trip. Agathe was so knowledgeable, friendly and warm. We learned so much about the different areas of Paris! By the end of our tour, we felt as if we had a new friend :) Agathe went above and beyond! We can’t wait to come again. I definitely recommend Agathe and seeing Paris through the eyes of a Parisian, who loves her beautiful city."
+      },
+      {
+        "name": "Dave Mc B.",
+        "origin": "USA",
+        "text": "My wife and I had the most amazing trips with Agathe. The day that we arrived in Paris, we booked an evening tour. After an amazing 2-hour tour by night with Agathe we had a daytime 3-hour scheduled for the next day. We had another amazing day, and I couldn’t thank you enough. Dave and Tracy!"
+      },
+      {
+        "name": "Deena E.",
+        "origin": "France",
+        "text": "Absolutely perfect!\n\nThank you, Agathe, for this wonderful tour. We had a fantastic time in your company. I highly recommend it! Agathe shares the history of the city along with plenty of anecdotes, and she completely tailors the tour to your preferences. Today, we made a quick stop at the Eiffel Tower so my husband could blow out his birthday candles and we could toast to his health!"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ce qu’en disent mes visiteurs",
+    "items": [
+      {
+        "name": "Marina G.",
+        "origin": "Russie",
+        "text": "Une expérience inoubliable. Agathe a été très gentille et nous a fait découvrir la ville de manière passionnante. Je recommande à 100 %."
+      },
+      {
+        "name": "Benjamin R.",
+        "origin": "États-Unis",
+        "text": "Agathe a été formidable !!! Très cultivée, elle nous a offert une magnifique visite de 6 heures à travers Paris. Je recommande vivement de faire appel à ses services de guide !"
+      },
+      {
+        "name": "Elizabeth H.",
+        "origin": "États-Unis",
+        "text": "Ma famille et moi avons eu le plaisir de faire appel à Agathe pour une visite de la Rive gauche à Paris. Agathe a été merveilleuse et très professionnelle. Elle a su mettre mes deux enfants à l’aise et les a accueillis avec beaucoup de bienveillance. Je la recommande vivement, surtout aux familles avec des enfants."
+      },
+      {
+        "name": "Kelly T.",
+        "origin": "États-Unis",
+        "text": "Nous avons passé un moment incroyable avec Agathe ! Elle est venue nous chercher pour nous faire visiter la ville, mes deux enfants et moi. Elle a veillé à inclure les lieux que nous voulions absolument voir, tout en ajoutant de nombreuses autres étapes que nous avons adorées ! Elle possède une excellente connaissance de la ville, de son histoire, et sait très bien raconter ce qu’est la vie à Paris. Je recommande vivement cette expérience ; ce fut vraiment le point fort de notre séjour, surtout en pleine vague de chaleur historique !"
+      },
+      {
+        "name": "Maureen F.",
+        "origin": "États-Unis",
+        "text": "Ma mère, ma sœur et moi avons vécu une expérience exceptionnelle avec Agathe. Avant la visite, elle a pris contact avec nous pour organiser les détails de notre journée. Cette visite a été le moment fort de notre voyage. Agathe est très cultivée, amicale et chaleureuse. Nous avons énormément appris sur les différents quartiers de Paris. À la fin de la visite, nous avions l’impression de nous être fait une nouvelle amie :) Agathe s’est surpassée ! Nous avons hâte de revenir. Je recommande sans hésiter Agathe pour découvrir Paris à travers le regard d’une Parisienne qui aime profondément sa magnifique ville."
+      },
+      {
+        "name": "Dave Mc B.",
+        "origin": "États-Unis",
+        "text": "Ma femme et moi avons vécu des moments absolument incroyables avec Agathe. Dès notre arrivée à Paris, nous avons réservé une visite en soirée. Après une superbe balade nocturne de deux heures en sa compagnie, nous en avons programmé une autre, de trois heures, pour le lendemain. C’était encore une journée fantastique ; nous ne saurions trop vous remercier ! Dave et Tracy !"
+      },
+      {
+        "name": "Deena E.",
+        "origin": "France",
+        "text": "Absolument parfait !\n\nMerci, Agathe, pour cette merveilleuse visite. Nous avons passé un moment fantastique en votre compagnie. Je recommande vivement ! Agathe partage l’histoire de la ville, agrémentée de nombreuses anecdotes, et elle adapte entièrement la visite à vos préférences. Aujourd’hui, nous avons fait une petite halte à la tour Eiffel pour que mon mari puisse souffler ses bougies d’anniversaire et pour que nous puissions trinquer à sa santé !"
+      }
+    ]
+  }
+}

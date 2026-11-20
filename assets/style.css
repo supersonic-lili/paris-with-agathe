@@ -152,3 +152,30 @@ p { margin: 0 0 1.25em; }
 .price-list li { padding: 1.25rem 1.5rem; border: 1px solid rgba(28, 47, 77, 0.3); border-radius: 0.75rem; font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem); }
 .intro { max-width: 75rem; }
 .intro p { max-width: 46rem; margin-inline: auto; }
+
+/* Reviews — above the contact block on every page */
+.reviews { padding: var(--space) 0; overflow: hidden; }
+.reviews-head { display: flex; align-items: end; justify-content: space-between; gap: 1.5rem; padding: 0 var(--gutter); margin-bottom: clamp(2rem, 4vw, 3rem); }
+.reviews-nav { display: flex; gap: 0.5rem; flex-shrink: 0; }
+.reviews-btn { width: 3rem; height: 3rem; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--prussian); font: inherit; font-size: 1.1rem; cursor: pointer; transition: background .3s, color .3s; }
+.reviews-btn:hover { background: var(--prussian); color: var(--paper); }
+.reviews-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2 * var(--gutter) - 2 * 1.5rem) / 3); column-gap: 1.5rem; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 var(--gutter); padding: 0 var(--gutter); scrollbar-width: none; align-items: stretch; }
+.reviews-track::-webkit-scrollbar { display: none; }
+.review { display: flex; flex-direction: column; scroll-snap-align: start; margin: 0; padding: clamp(1.75rem, 3vw, 2.5rem); background: var(--pistachio); border-radius: 1rem; overflow: visible; }
+.review::before { content: "“"; display: block; font: 400 3.5rem/1 Georgia, serif; height: 1.75rem; color: var(--matte-red); margin-bottom: 0.75rem; }
+.review blockquote { margin: 0 0 1.5rem; max-height: calc(1.75em * 9); overflow: hidden; position: relative; }
+.review.is-clamped blockquote::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3.5em; background: linear-gradient(transparent, var(--pistachio)); }
+.review.is-open blockquote { max-height: none; }
+.review-more { align-self: flex-start; margin: -0.75rem 0 1.5rem; padding: 0; border: 0; background: none; color: var(--prussian); font: inherit; font-size: 0.875rem; text-decoration: underline; text-underline-offset: 0.25em; cursor: pointer; }
+.review figcaption { margin-top: auto; }
+.review blockquote p:last-child { margin-bottom: 0; }
+.review figcaption { font-size: 0.875rem; letter-spacing: 0.04em; }
+.review figcaption strong { font-weight: 400; text-transform: uppercase; letter-spacing: 0.14em; }
+@media (max-width: 52rem) {
+  .reviews-track { grid-auto-columns: 85%; }
+}
+
+/* Footer — Instagram icon */
+.footer-links { align-items: center; }
+.icon-link { display: inline-flex; }
+.icon-link svg { width: 1.5rem; height: 1.5rem; }

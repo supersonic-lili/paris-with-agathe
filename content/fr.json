@@ -14,7 +14,7 @@
     "title": "Paris comme une amie vous le ferait découvrir.",
     "lead": "Paris ne se résume pas à ses monuments. C’est aussi un style, un rythme, une atmosphère…",
     "body": "Oubliez les circuits touristiques traditionnels. Le temps de quelques heures ou d’une journée, je vous emmène découvrir le Paris que j’aime et qui fait l’âme de la ville.\n\nDe l’histoire des grands monuments aux boutiques que l’on ne trouve pas dans les guides, des galeries d’art aux meilleures pâtisseries de quartier, je vous invite à découvrir Paris autrement : de façon vivante, curieuse et personnelle. Et très parisienne !",
-    "ways": "En voiture avec chauffeur, à pied, à vélo (l’été), en petite jeep décapotable aux beaux jours, imaginons ensemble votre escapade parisienne.",
+    "ways": "En voiture avec chauffeur, à pied ou en petite jeep décapotable aux beaux jours, imaginons ensemble votre escapade parisienne.",
     "signature": "Paris est ma ville. Le temps d’une visite, elle sera aussi un peu la vôtre.",
     "cta": "Découvrir les expériences"
   },
@@ -26,7 +26,7 @@
     "pronounce_title": "Comment prononcer mon prénom ?",
     "pronounce_text": "Oubliez Agatha : je m’appelle Agathe, avec un e à la fin !\n\nPetite astuce : dites « I got » avec un bon accent américain, et vous y êtes presque.\n\nFacile, non ? Vous pouvez maintenant retenir mon prénom, le prononcer parfaitement… et vous en attribuer tout le mérite !",
     "languages_title": "Langues",
-    "languages_text": "J’accueille mes visiteurs en français et en anglais, deux langues que je parle couramment. Je peux aussi vous faire découvrir Paris en espagnol ou en italien."
+    "languages_text": "J’accueille mes visiteurs en français et en anglais, deux langues que je parle couramment. Je peux aussi vous faire découvrir Paris en espagnol ou en italien.\n\nJ’ai aussi étudié l’hébreu pendant quatre ans… mais je serais bien incapable de vous faire une visite dans cette langue ! Heureusement, les Israéliens parlent presque tous anglais."
   },
   "experiences": {
     "eyebrow": "Les expériences",
@@ -35,7 +35,7 @@
     "items": [
       {
         "title": "Le Paris des quartiers",
-        "text": "Saint-Germain-des-Prés, le Marais, le Quartier latin, l’île Saint-Louis, Montmartre, les adresses d’Emily in Paris ou d’Amélie Poulain, du Da Vinci Code… Chaque quartier a son histoire, son atmosphère, ses habitudes et ses petits secrets. Je vous aide à en saisir l’esprit, au-delà des façades."
+        "text": "Saint-Germain-des-Prés, le Marais, le Quartier latin, l’île Saint-Louis, Montmartre, le Paris de la Belle Époque, les adresses d’Emily in Paris ou d’Amélie Poulain, du Da Vinci Code… Chaque quartier a son histoire, son atmosphère, ses habitudes et ses petits secrets. Je vous aide à en saisir l’esprit, au-delà des façades."
       },
       {
         "title": "Le Paris des créateurs et des belles adresses",
@@ -54,12 +54,12 @@
         "text": "Comment vivent les Parisiens ? Où sortent-ils, comment s’habillent-ils, que révèlent leurs quartiers de leurs goûts et de leurs modes de vie ? Avec un peu d’observation, quelques anecdotes et beaucoup de curiosité, Paris devient un formidable terrain de découverte."
       }
     ],
-    "intro": "Envie de découvrir les incontournables, de flâner dans les boutiques, de consacrer une journée à l’art et au design, ou de dénicher les meilleures adresses gourmandes ?\n\nJe vous propose des itinéraires que j’ai conçus et peaufinés au fil du temps, ou nous pouvons imaginer ensemble une visite entièrement sur mesure.\n\nQue vous soyez en couple, en famille, entre amis ou en petit groupe (3 personnes maximum par véhicule), chaque sortie s’adapte à vos envies, à votre rythme et à vos centres d’intérêt.\n\nPour vous déplacer, plusieurs options selon la saison et la météo : à pied, à vélo, en petite jeep décapotable aux beaux jours, ou en voiture avec chauffeur quand les conditions l’exigent.\n\nDe deux heures à une journée entière, tout est possible : il suffit de trouver la formule qui vous convient le mieux. Un devis détaillé est établi pour chaque demande.",
+    "intro": "Envie de découvrir les incontournables, de flâner dans les boutiques, de consacrer une journée à l’art et au design, ou de dénicher les meilleures adresses gourmandes ?\n\nJe vous propose des itinéraires que j’ai conçus et peaufinés au fil du temps, ou nous pouvons imaginer ensemble une visite entièrement sur mesure.\n\nQue vous soyez en couple, en famille, entre amis ou en petit groupe (3 personnes maximum par véhicule), chaque sortie s’adapte à vos envies, à votre rythme et à vos centres d’intérêt.\n\nPour vous déplacer, plusieurs options selon la saison et la météo : à pied, en petite jeep décapotable aux beaux jours, ou en voiture avec chauffeur quand les conditions l’exigent.\n\nDe deux heures à une journée entière, tout est possible : il suffit de trouver la formule qui vous convient le mieux. Un devis détaillé est établi pour chaque demande.",
     "prices_title": "Tarifs",
-    "prices_text": "Le tarif dépend de la durée de la visite, du mode de transport choisi (voiture avec chauffeur, à pied, à vélo, jeep décapotable…), du nombre de personnes et de votre mode de réservation (agence de voyage, conciergerie ou directement auprès de moi). Dites-moi ce que vous souhaitez et je vous enverrai un devis précis.\n\nPlus la visite est longue, plus le tarif horaire diminue.",
+    "prices_text": "Le tarif dépend de la durée de la visite, du mode de transport choisi (voiture avec chauffeur, à pied, jeep décapotable…), du nombre de personnes et de votre mode de réservation (agence de voyage, conciergerie ou directement auprès de moi). Dites-moi ce que vous souhaitez et je vous enverrai un devis précis.\n\nPlus la visite est longue, plus le tarif horaire diminue.",
     "prices": [
-      "À partir de 250 € de l’heure pour 3 personnes en voiture avec chauffeur",
-      "À partir de 150 € de l’heure pour 3 personnes à pied, au départ de votre hôtel (dans Paris intra-muros)"
+      "À partir de 250 € de l’heure pour 2 personnes en voiture avec chauffeur",
+      "À partir de 180 € de l’heure pour 2 personnes à pied, au départ de votre hôtel (dans Paris intra-muros)"
     ]
   },
   "contact": {

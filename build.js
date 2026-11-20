@@ -6,6 +6,7 @@ const ROOT = __dirname;
 const OUT = path.join(ROOT, "dist");
 const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, "content", f), "utf8"));
 const shared = read("shared.json");
+const reviews = fs.existsSync(path.join(ROOT, "content", "reviews.json")) ? read("reviews.json") : {};
 const langs = { en: read("en.json"), fr: read("fr.json") };
 
 const ROUTES = {
@@ -18,6 +19,47 @@ const esc = (s = "") =>
 const paras = (s = "") =>
   String(s).split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("\n");
 const logo = (src) => `<span class="logo"><img src="${esc(src)}" alt="Paris with Agathe"></span>`;
+
+// Reviews — shown above the contact block on every page
+function reviewsBlock(lang) {
+  const r = reviews[lang] || {};
+  const items = (r.items || []).filter((it) => it && it.text);
+  if (!items.length) return "";
+  const prev = lang === "fr" ? "Avis précédent" : "Previous review";
+  const next = lang === "fr" ? "Avis suivant" : "Next review";
+  return `<section class="reviews" aria-label="${esc(r.title || "Reviews")}">
+  <div class="reviews-head">
+    ${r.title ? `<h2>${esc(r.title)}</h2>` : ""}
+    <div class="reviews-nav">
+      <button type="button" class="reviews-btn" data-dir="-1" aria-label="${prev}">←</button>
+      <button type="button" class="reviews-btn" data-dir="1" aria-label="${next}">→</button>
+    </div>
+  </div>
+  <div class="reviews-track" tabindex="0">
+    ${items.map((it) => `<figure class="review">
+      <blockquote>${paras(it.text)}</blockquote>
+      <button type="button" class="review-more" hidden>${lang === "fr" ? "Lire la suite" : "Read more"}</button>
+      <figcaption><strong>${esc(it.name || "")}</strong>${it.origin ? ` · ${esc(it.origin)}` : ""}</figcaption>
+    </figure>`).join("\n    ")}
+  </div>
+</section>
+<script>
+(function () {
+  var s = document.currentScript.previousElementSibling, t = s.querySelector(".reviews-track");
+  s.querySelectorAll(".review").forEach(function (c) {
+    var q = c.querySelector("blockquote"), m = c.querySelector(".review-more");
+    if (q.scrollHeight > q.clientHeight + 4) { m.hidden = false; c.classList.add("is-clamped"); }
+    m.addEventListener("click", function () { c.classList.remove("is-clamped"); c.classList.add("is-open"); m.hidden = true; });
+  });
+  s.querySelectorAll(".reviews-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var card = t.querySelector(".review"), step = card ? card.getBoundingClientRect().width + parseFloat(getComputedStyle(t).columnGap || 0) : t.clientWidth;
+      t.scrollBy({ left: step * Number(b.dataset.dir), behavior: "smooth" });
+    });
+  });
+})();
+</script>`;
+}
 
 function page({ lang, key, body }) {
   const t = langs[lang];
@@ -55,6 +97,7 @@ function page({ lang, key, body }) {
 <main>
 ${body({ t, href, img })}
 </main>
+${reviewsBlock(lang)}
 <footer class="site-footer" id="contact">
   <p class="eyebrow">${esc(t.nav.contact)}</p>
   <h2 class="footer-title">${esc(t.contact.title)}</h2>
@@ -62,7 +105,7 @@ ${body({ t, href, img })}
   <ul class="footer-links">
     <li><a href="mailto:${esc(shared.email)}">${esc(shared.email)}</a></li>
     ${shared.phone ? `<li><a href="tel:${esc(shared.phone.replace(/\s/g, ""))}">${esc(shared.phone)}</a></li>` : ""}
-    ${shared.instagram ? `<li><a href="${esc(shared.instagram)}" target="_blank" rel="noopener">Instagram</a></li>` : ""}
+    ${shared.instagram ? `<li><a class="icon-link" href="${esc(shared.instagram)}" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="0.9" fill="currentColor" stroke="none"/></svg></a></li>` : ""}
   </ul>
   <p class="fineprint">© ${new Date().getFullYear()} Paris with Agathe</p>
 </footer>

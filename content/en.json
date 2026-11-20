@@ -14,7 +14,7 @@
     "title": "Discover Paris through the eyes of a Parisian.",
     "lead": "Paris is more than its famous monuments. It is a rhythm, a mood, a collection of little moments: a quiet street in Saint-Germain-des-Prés, the scent of fresh bread in a neighborhood bakery, a hidden garden behind an unassuming gate, a café terrace where Parisians linger over conversation, the view of the sunset from a century-old bridge.",
     "body": "Forget the traditional tourist trails. For a few hours or a full day, let me take you to discover the Paris I love — the city’s true soul.\n\nFrom the history of iconic landmarks to shops you won’t find in guidebooks, and from art galleries to the best local pastry shops, I invite you to experience Paris in a different way: with a sense of curiosity, a personal touch, and a lively spirit.",
-    "ways": "Whether in a chauffeured car, on foot, by bike (in summer), or in a small open-top Jeep on sunny days, let’s plan your Parisian getaway together.",
+    "ways": "Whether in a chauffeured car, on foot, or in a small open-top Jeep on sunny days, let’s plan your Parisian getaway together.",
     "signature": "Paris is my city. It could be a little bit yours, too.",
     "cta": "Discover the experiences"
   },
@@ -26,7 +26,7 @@
     "pronounce_title": "How to pronounce my name?",
     "pronounce_text": "Forget Agatha — I'm Agathe, with an e at the end!\n\nHere's a little trick: say “I got” in a strong American accent, and you're already halfway there.\n\nEasy, right? Now you can remember my name, pronounce it perfectly, and take all the credit!",
     "languages_title": "Languages",
-    "languages_text": "I welcome guests in French and English, both of which I speak fluently. I can also help you discover Paris in Spanish or Italian."
+    "languages_text": "I welcome guests in French and English, both of which I speak fluently. I can also help you discover Paris in Spanish or Italian.\n\nI also studied Hebrew for four years… but I'd be quite incapable of giving you a tour in it! Luckily, Hebrew speakers almost all speak English too."
   },
   "experiences": {
     "eyebrow": "Experiences",
@@ -35,7 +35,7 @@
     "items": [
       {
         "title": "Paris by Neighborhood",
-        "text": "Saint-Germain-des-Prés, Le Marais, the Latin Quarter, Île Saint-Louis, Montmartre, the favorite addresses of Emily in Paris or Amélie Poulain, the Da Vinci Code mystery… Each neighborhood has its own history, atmosphere, habits, style and little secrets. I help you capture their spirit — going beyond the facades."
+        "text": "Saint-Germain-des-Prés, Le Marais, the Latin Quarter, Île Saint-Louis, Montmartre, Paris during the Belle Époque, the favorite addresses of Emily in Paris or Amélie Poulain, the Da Vinci Code mystery… Each neighborhood has its own history, atmosphere, habits, style and little secrets. I help you capture their spirit — going beyond the facades."
       },
       {
         "title": "Paris: Designers and Fine Spots",
@@ -54,12 +54,12 @@
         "text": "How do Parisians live? Where do they go out? How do they dress? What do their neighborhoods reveal about their tastes and lifestyles? How do they vote? With a little observation, a few anecdotes, and plenty of curiosity, Paris becomes a wonderful place of discovery."
       }
     ],
-    "intro": "Would you like to discover the must-see sights, browse the boutiques, dedicate a day to art and design, or seek out the best gourmet spots?\n\nI offer itineraries I have developed and refined over time, or we can create a completely personalized tour together.\n\nWhether you are a couple, a family, a group of friends or a small party (maximum 3 people per vehicle), each outing is tailored to your preferences, your pace and your interests.\n\nTo get around, there are several options depending on the season and the weather: on foot, by bike, in a small open-top Jeep when the weather is fine, or by chauffeured car when conditions call for it.\n\nFrom two hours to a full day, anything is possible: we simply find the format that suits you best. A detailed quote is provided for every request.",
+    "intro": "Would you like to discover the must-see sights, browse the boutiques, dedicate a day to art and design, or seek out the best gourmet spots?\n\nI offer itineraries I have developed and refined over time, or we can create a completely personalized tour together.\n\nWhether you are a couple, a family, a group of friends or a small party (maximum 3 people per vehicle), each outing is tailored to your preferences, your pace and your interests.\n\nTo get around, there are several options depending on the season and the weather: on foot, in a small open-top Jeep when the weather is fine, or by chauffeured car when conditions call for it.\n\nFrom two hours to a full day, anything is possible: we simply find the format that suits you best. A detailed quote is provided for every request.",
     "prices_title": "Prices",
-    "prices_text": "The price depends on the length of the tour, the transport chosen (chauffeured car, on foot, by bike, open-top Jeep…), the size of your group, and how you book (through a travel agency, a concierge service, or directly with me). Tell me what you have in mind and I’ll send you a precise quote.\n\nThe longer the tour, the lower the hourly rate.",
+    "prices_text": "The price depends on the length of the tour, the transport chosen (chauffeured car, on foot, open-top Jeep…), the size of your group, and how you book (through a travel agency, a concierge service, or directly with me). Tell me what you have in mind and I’ll send you a precise quote.\n\nThe longer the tour, the lower the hourly rate.",
     "prices": [
-      "From €250 per hour for 3 people by chauffeured car",
-      "From €150 per hour for 3 people on foot, starting from your hotel (within central Paris)"
+      "From €250 per hour for 2 people by chauffeured car",
+      "From €180 per hour for 2 people on foot, starting from your hotel (within central Paris)"
     ]
   },
   "contact": {
