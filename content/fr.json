@@ -1,14 +1,4 @@
 {
-  "meta": {
-    "title": "Paris with Agathe — Découvrir Paris comme une amie",
-    "description": "Visites privées de Paris avec Agathe : quartiers, créateurs, adresses gourmandes, histoire et art de vivre parisien."
-  },
-  "nav": {
-    "home": "Accueil",
-    "about": "Qui suis-je ?",
-    "experiences": "Expériences",
-    "contact": "Contact"
-  },
   "home": {
     "eyebrow": "Paris with Agathe",
     "title": "Paris comme une amie vous le ferait découvrir.",
@@ -32,6 +22,13 @@
     "eyebrow": "Les expériences",
     "title": "Paris, à ma façon",
     "subtitle": "Des expériences pensées pour vous",
+    "intro": "Envie de découvrir les incontournables, de flâner dans les boutiques, de consacrer une journée à l’art et au design, ou de dénicher les meilleures adresses gourmandes ?\n\nJe vous propose des itinéraires que j’ai conçus et peaufinés au fil du temps, ou nous pouvons imaginer ensemble une visite entièrement sur mesure.\n\nQue vous soyez en couple, en famille, entre amis ou en petit groupe (3 personnes maximum par véhicule), chaque sortie s’adapte à vos envies, à votre rythme et à vos centres d’intérêt.\n\nPour vous déplacer, plusieurs options selon la saison et la météo : à pied, en petite jeep décapotable aux beaux jours, ou en voiture avec chauffeur quand les conditions l’exigent.\n\nDe deux heures à une journée entière, tout est possible : il suffit de trouver la formule qui vous convient le mieux. Un devis détaillé est établi pour chaque demande.",
+    "prices_title": "Tarifs",
+    "prices_text": "Le tarif dépend de la durée de la visite, du mode de transport choisi (voiture avec chauffeur, à pied, jeep décapotable…), du nombre de personnes et de votre mode de réservation (agence de voyage, conciergerie ou directement auprès de moi). Dites-moi ce que vous souhaitez et je vous enverrai un devis précis.\n\nPlus la visite est longue, plus le tarif horaire diminue.",
+    "prices": [
+      "À partir de 280 € de l’heure pour 2 personnes en voiture avec chauffeur",
+      "À partir de 165 € de l’heure pour 2 personnes à pied, au départ de votre hôtel (dans Paris intra-muros)"
+    ],
     "items": [
       {
         "title": "Le Paris des quartiers",
@@ -53,17 +50,20 @@
         "title": "Le Paris des Parisiens",
         "text": "Comment vivent les Parisiens ? Où sortent-ils, comment s’habillent-ils, que révèlent leurs quartiers de leurs goûts et de leurs modes de vie ? Avec un peu d’observation, quelques anecdotes et beaucoup de curiosité, Paris devient un formidable terrain de découverte."
       }
-    ],
-    "intro": "Envie de découvrir les incontournables, de flâner dans les boutiques, de consacrer une journée à l’art et au design, ou de dénicher les meilleures adresses gourmandes ?\n\nJe vous propose des itinéraires que j’ai conçus et peaufinés au fil du temps, ou nous pouvons imaginer ensemble une visite entièrement sur mesure.\n\nQue vous soyez en couple, en famille, entre amis ou en petit groupe (3 personnes maximum par véhicule), chaque sortie s’adapte à vos envies, à votre rythme et à vos centres d’intérêt.\n\nPour vous déplacer, plusieurs options selon la saison et la météo : à pied, en petite jeep décapotable aux beaux jours, ou en voiture avec chauffeur quand les conditions l’exigent.\n\nDe deux heures à une journée entière, tout est possible : il suffit de trouver la formule qui vous convient le mieux. Un devis détaillé est établi pour chaque demande.",
-    "prices_title": "Tarifs",
-    "prices_text": "Le tarif dépend de la durée de la visite, du mode de transport choisi (voiture avec chauffeur, à pied, jeep décapotable…), du nombre de personnes et de votre mode de réservation (agence de voyage, conciergerie ou directement auprès de moi). Dites-moi ce que vous souhaitez et je vous enverrai un devis précis.\n\nPlus la visite est longue, plus le tarif horaire diminue.",
-    "prices": [
-      "À partir de 250 € de l’heure pour 2 personnes en voiture avec chauffeur",
-      "À partir de 180 € de l’heure pour 2 personnes à pied, au départ de votre hôtel (dans Paris intra-muros)"
     ]
   },
   "contact": {
     "title": "Imaginons ensemble votre escapade parisienne.",
     "cta": "Écrire à Agathe"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui suis-je ?",
+    "experiences": "Expériences",
+    "contact": "Contact"
+  },
+  "meta": {
+    "title": "Paris with Agathe — Découvrir Paris comme une amie",
+    "description": "Visites privées de Paris avec Agathe : quartiers, créateurs, adresses gourmandes, histoire et art de vivre parisien."
   }
 }
